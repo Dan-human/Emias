@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateDocActivity">
+
+
+    <EditText
+        android:id="@+id/doctorname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name surname"
+        app:layout_constraintBottom_toTopOf="@+id/btndoctor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dtype" />
+
+    <EditText
+        android:id="@+id/dtype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="type"
+        app:layout_constraintBottom_toTopOf="@+id/doctorname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btndoctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dtype"
+        android:text="Create doctor"
+        app:layout_constraintBottom_toTopOf="@+id/btndeletedoc"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doctorname" />
+
+    <Button
+        android:id="@+id/btndeletedoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Doctor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btndoctor" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

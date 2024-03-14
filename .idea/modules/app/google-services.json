@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "514107116130",
+    "project_id": "arm-registration",
+    "storage_bucket": "arm-registration.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514107116130:android:7594247476a9a693465f3b",
+        "android_client_info": {
+          "package_name": "com.Dan_human.Emias"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGF9uwICta6QfdovUGl_c4QHPvnxq14X4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
